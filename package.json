@@ -9,6 +9,7 @@
     "build:webpack:non-barrel": "yarn build:webpack --entry ./src/non-barrel.tsx",
     "typecheck:barrel": "tsc --p tsconfig.barrel.json",
     "typecheck:non-barrel": "tsc --p tsconfig.non-barrel.json",
+    "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,css,md,json}'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -29,6 +30,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-react": "^7.34.3",
     "html-webpack-plugin": "^5.5.3",
+    "prettier": "^3.3.2",
     "react-refresh": "^0.8.2",
     "swc-loader": "^0.2.3",
     "terser-webpack-plugin": "^3.0.1",

@@ -6,5 +6,5 @@ render(
   <div>
     <A11115 />
   </div>,
-  document.getElementById("app")
+  document.getElementById("app"),
 );
