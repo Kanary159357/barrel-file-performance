@@ -1,0 +1,10 @@
+export { default as A1224 } from './A1224';
+export { default as B1224 } from './B1224';
+export { default as C1224 } from './C1224';
+export { default as D1224 } from './D1224';
+export { default as E1224 } from './E1224';
+export * from './1';
+export * from './2';
+export * from './3';
+export * from './4';
+export * from './5';
