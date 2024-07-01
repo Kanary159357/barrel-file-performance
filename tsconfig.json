@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "outDir": "./dist/",
-    "sourceMap": true,
+    "noEmit": true,
     "noImplicitAny": true,
     "jsx": "react",
     "lib": ["es5", "es6", "dom"],
@@ -13,7 +11,6 @@
     "moduleResolution": "node",
     "removeComments": true,
     "declaration": true,
-    "noLib": false,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
