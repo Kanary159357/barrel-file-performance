@@ -1,10 +1,16 @@
 import React from "react";
-import { render } from "react-dom";
-import { A11115 } from "./component";
+import { createRoot } from "react-dom/client";
+import { A111 } from "./component";
 
-render(
+const rootElement = document.getElementById("app");
+if (!rootElement) {
+  throw new Error("Root element not found");
+}
+
+const root = createRoot(rootElement);
+
+root.render(
   <div>
-    <A11115 />
-  </div>,
-  document.getElementById("app"),
+    <A111 />
+  </div>
 );
