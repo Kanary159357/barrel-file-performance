@@ -1,5 +1,10 @@
-export * from './1';
-export * from './2';
-export * from './3';
-export * from './4';
-export * from './5';
+export * from "./1";
+export * from "./2";
+export * from "./3";
+export * from "./4";
+export * from "./5";
+export { default as A1 } from "./A1";
+export { default as B1 } from "./B1";
+export { default as C1 } from "./C1";
+export { default as D1 } from "./D1";
+export { default as E1 } from "./E1";

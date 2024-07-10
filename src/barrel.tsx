@@ -1,6 +1,5 @@
-import React from "react";
 import { createRoot } from "react-dom/client";
-import { A111 } from "./component";
+import { A11111, B12222 } from "./component";
 
 const rootElement = document.getElementById("app");
 if (!rootElement) {
@@ -11,6 +10,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <div>
-    <A111 />
+    <B12222 />
+    <A11111 />
   </div>
 );

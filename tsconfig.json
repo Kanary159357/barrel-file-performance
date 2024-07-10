@@ -3,20 +3,18 @@
     "experimentalDecorators": true,
     "noEmit": true,
     "noImplicitAny": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "lib": ["es5", "es6", "dom"],
     "esModuleInterop": true,
     "target": "esnext",
     "module": "CommonJS",
     "moduleResolution": "node",
     "removeComments": true,
-    "declaration": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "strictNullChecks": true,
-    "noUnusedLocals": true,
-    "skipLibCheck": true
+    "noUnusedLocals": true
   }
 }

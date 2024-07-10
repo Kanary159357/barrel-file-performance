@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const DEPTH = 5;
+const DEPTH = 5 ;
 
 function generateComponentFiles(directory, currentDepth) {
   const depth = currentDepth.length;
@@ -15,8 +15,7 @@ function generateComponentFiles(directory, currentDepth) {
     // Create component file
     fs.writeFileSync(
       componentFilePath,
-      `import React from 'react';
-    
+      `     
       const ${componentName}= () => {
         return <div>${componentName} Component</div>;
       };
